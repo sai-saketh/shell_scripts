@@ -3,7 +3,6 @@ printf "ENTER THE REQUIRED SIZE OF SQUARE : "
 read i
 printf "ENTER THE CHARACTER WITH WHICH YOU NEED A SQUARE : "
 read a
-
 for (( b=0;b<i;b++ ))
 do
 printf "$a "
@@ -16,6 +15,7 @@ for (( k=1;k<i-1;k++ ))
 do
 printf "  "
 done
+
 printf "$a "
 printf "\n"
 done
